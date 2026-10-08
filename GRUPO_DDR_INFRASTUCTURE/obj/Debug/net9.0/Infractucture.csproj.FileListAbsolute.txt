@@ -1,0 +1,5 @@
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Debug\net9.0\Infractucture.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Debug\net9.0\Infractucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Debug\net9.0\Infractucture.AssemblyInfoInputs.cache
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Debug\net9.0\Infractucture.AssemblyInfo.cs
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Debug\net9.0\Infractucture.csproj.CoreCompileInputs.cache

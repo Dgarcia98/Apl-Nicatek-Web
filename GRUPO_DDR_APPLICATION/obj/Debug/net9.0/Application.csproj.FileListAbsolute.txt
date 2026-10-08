@@ -1,0 +1,15 @@
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\bin\Debug\net9.0\Application.deps.json
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\bin\Debug\net9.0\Application.dll
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\bin\Debug\net9.0\Application.pdb
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\bin\Debug\net9.0\Domain.dll
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\bin\Debug\net9.0\Domain.pdb
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Application.dll
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\refint\Application.dll
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\Application.pdb
+C:\Users\Personal\Desktop\COMTECH_ADO\GRUPO_DDR\GRUPO_DDR_APPLICATION\obj\Debug\net9.0\ref\Application.dll

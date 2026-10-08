@@ -1,0 +1,2815 @@
+[
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaController",
+    "Method": "EditarBodega",
+    "RelativePath": "api/Bodega/EditarBodega/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.BodegaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaController",
+    "Method": "EliminarBodega",
+    "RelativePath": "api/Bodega/EliminarBodega/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaController",
+    "Method": "ListarBodega",
+    "RelativePath": "api/Bodega/ListarBodega",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/Bodega/ListarPorNombre/{buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaController",
+    "Method": "NuevoBodega",
+    "RelativePath": "api/Bodega/NuevoBodega",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.BodegaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaController",
+    "Method": "ObtenerBodegaPorId",
+    "RelativePath": "api/Bodega/ObtenerBodegaPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaProductoController",
+    "Method": "Editar",
+    "RelativePath": "api/BodegaProducto/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.BodegaProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaProductoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/BodegaProducto/Eliminar/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaProductoController",
+    "Method": "Filtrar",
+    "RelativePath": "api/BodegaProducto/Filtrar/{filtro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtro",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaProductoController",
+    "Method": "Listar",
+    "RelativePath": "api/BodegaProducto/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaProductoController",
+    "Method": "ListarPorBodega",
+    "RelativePath": "api/BodegaProducto/ListarPorBodega/{idBodega}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idBodega",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.BodegaProductoController",
+    "Method": "Nuevo",
+    "RelativePath": "api/BodegaProducto/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.BodegaProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CatalogoController",
+    "Method": "EditarCatalogo",
+    "RelativePath": "api/Catalogo/EditarCatalogo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CatalogoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CatalogoController",
+    "Method": "EliminarCatalogo",
+    "RelativePath": "api/Catalogo/EliminarCatalogo/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CatalogoController",
+    "Method": "ListarCatalogo",
+    "RelativePath": "api/Catalogo/ListarCatalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CatalogoController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/Catalogo/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CatalogoController",
+    "Method": "NuevoCatalogo",
+    "RelativePath": "api/Catalogo/NuevoCatalogo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CatalogoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CatalogoController",
+    "Method": "ObtenerCatalogoPorId",
+    "RelativePath": "api/Catalogo/ObtenerCatalogoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CategoriaController",
+    "Method": "EditarCategoria",
+    "RelativePath": "api/Categoria/EditarCategoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CategoriaController",
+    "Method": "EliminarCategoria",
+    "RelativePath": "api/Categoria/EliminarCategoria/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CategoriaController",
+    "Method": "ListarCategoria",
+    "RelativePath": "api/Categoria/ListarCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CategoriaController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/Categoria/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CategoriaController",
+    "Method": "NuevoCategoria",
+    "RelativePath": "api/Categoria/NuevoCategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CategoriaController",
+    "Method": "ObtenerCategoriaPorId",
+    "RelativePath": "api/Categoria/ObtenerCategoriaPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ClienteController",
+    "Method": "EditarCliente",
+    "RelativePath": "api/Cliente/EditarCliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ClienteController",
+    "Method": "EliminarCliente",
+    "RelativePath": "api/Cliente/EliminarCliente/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ClienteController",
+    "Method": "ListarClientes",
+    "RelativePath": "api/Cliente/ListarClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ClienteController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/Cliente/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ClienteController",
+    "Method": "NuevoCliente",
+    "RelativePath": "api/Cliente/NuevoCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ClienteController",
+    "Method": "ObtenerClientePorId",
+    "RelativePath": "api/Cliente/ObtenerClientePorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "CompletarCompra",
+    "RelativePath": "api/Compra/CompletarCompra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CompraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "EditarCompra",
+    "RelativePath": "api/Compra/EditarCompra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CompraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "EliminarCompra",
+    "RelativePath": "api/Compra/EliminarCompra/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "EliminarCompraLegacy",
+    "RelativePath": "api/Compra/EliminarCompra/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "ListarCompra",
+    "RelativePath": "api/Compra/ListarCompra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/Compra/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "NuevoCompra",
+    "RelativePath": "api/Compra/NuevoCompra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CompraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "ObtenerCompraPorId",
+    "RelativePath": "api/Compra/ObtenerCompraPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CompraController",
+    "Method": "Registrar",
+    "RelativePath": "api/Compra/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CompraRegistroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ConfiguracionController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Configuracion/Actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ConfiguracionEmpresaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ConfiguracionController",
+    "Method": "Crear",
+    "RelativePath": "api/Configuracion/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ConfiguracionEmpresaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ConfiguracionController",
+    "Method": "Obtener",
+    "RelativePath": "api/Configuracion/Obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CorreoController",
+    "Method": "EditarCorreo",
+    "RelativePath": "api/Correo/EditarCorreo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CorreoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CorreoController",
+    "Method": "EliminarCorreo",
+    "RelativePath": "api/Correo/EliminarCorreo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CorreoController",
+    "Method": "ListarCorreo",
+    "RelativePath": "api/Correo/ListarCorreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CorreoController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/Correo/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CorreoController",
+    "Method": "NuevoCorreo",
+    "RelativePath": "api/Correo/NuevoCorreo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.CorreoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.CorreoController",
+    "Method": "ObtenerCorreoPorId",
+    "RelativePath": "api/Correo/ObtenerCorreoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DashboardController",
+    "Method": "Resumen",
+    "RelativePath": "api/Dashboard/Resumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "desde",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "hasta",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DatosPersonalesController",
+    "Method": "EditarDatosPersonales",
+    "RelativePath": "api/DatosPersonales/EditarDatosPersonales/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DatosPersonalesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DatosPersonalesController",
+    "Method": "EliminarDatosPersonales",
+    "RelativePath": "api/DatosPersonales/EliminarDatosPersonales/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DatosPersonalesController",
+    "Method": "ListarDatosPersonales",
+    "RelativePath": "api/DatosPersonales/ListarDatosPersonales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DatosPersonalesController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/DatosPersonales/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DatosPersonalesController",
+    "Method": "NuevoDatosPersonales",
+    "RelativePath": "api/DatosPersonales/NuevoDatosPersonales",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DatosPersonalesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DatosPersonalesController",
+    "Method": "ObtenerDatosPersonalesPorId",
+    "RelativePath": "api/DatosPersonales/ObtenerDatosPersonalesPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleCompraController",
+    "Method": "EditarDetalleCompra",
+    "RelativePath": "api/DetalleCompra/EditarDetalleCompra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DetalleCompraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleCompraController",
+    "Method": "EliminarDetalleCompra",
+    "RelativePath": "api/DetalleCompra/EliminarDetalleCompra/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleCompraController",
+    "Method": "ListarDetalleCompra",
+    "RelativePath": "api/DetalleCompra/ListarDetalleCompra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleCompraController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/DetalleCompra/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleCompraController",
+    "Method": "NuevoDetalleCompra",
+    "RelativePath": "api/DetalleCompra/NuevoDetalleCompra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DetalleCompraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleCompraController",
+    "Method": "ObtenerDetalleCompraPorId",
+    "RelativePath": "api/DetalleCompra/ObtenerDetalleCompraPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleVentaController",
+    "Method": "EditarDetalleVenta",
+    "RelativePath": "api/DetalleVenta/EditarDetalleVenta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DetalleVentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleVentaController",
+    "Method": "EliminarDetalleVenta",
+    "RelativePath": "api/DetalleVenta/EliminarDetalleVenta/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleVentaController",
+    "Method": "ListarDetalleVentas",
+    "RelativePath": "api/DetalleVenta/ListarDetalleVentas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleVentaController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/DetalleVenta/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleVentaController",
+    "Method": "NuevoDetalleVenta",
+    "RelativePath": "api/DetalleVenta/NuevoDetalleVenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DetalleVentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DetalleVentaController",
+    "Method": "ObtenerDetalleVentaPorId",
+    "RelativePath": "api/DetalleVenta/ObtenerDetalleVentaPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DireccionController",
+    "Method": "EditarDireccion",
+    "RelativePath": "api/Direccion/EditarDireccion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DireccionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DireccionController",
+    "Method": "EliminarDireccion",
+    "RelativePath": "api/Direccion/EliminarDireccion/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DireccionController",
+    "Method": "FiltrarDirecciones",
+    "RelativePath": "api/Direccion/FiltrarDirecciones/{filtro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtro",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DireccionController",
+    "Method": "ListarDirecciones",
+    "RelativePath": "api/Direccion/ListarDirecciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DireccionController",
+    "Method": "NuevaDireccion",
+    "RelativePath": "api/Direccion/NuevaDireccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.DireccionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.DireccionController",
+    "Method": "ObtenerDireccionPorId",
+    "RelativePath": "api/Direccion/ObtenerDireccionPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EmpleadoController",
+    "Method": "EditarEmpleado",
+    "RelativePath": "api/Empleado/EditarEmpleado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.EmpleadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EmpleadoController",
+    "Method": "EliminarEmpleado",
+    "RelativePath": "api/Empleado/EliminarEmpleado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EmpleadoController",
+    "Method": "ListarEmpleado",
+    "RelativePath": "api/Empleado/ListarEmpleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EmpleadoController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/Empleado/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EmpleadoController",
+    "Method": "NuevoEmpleado",
+    "RelativePath": "api/Empleado/NuevoEmpleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.EmpleadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EmpleadoController",
+    "Method": "ObtenerEmpleadoPorId",
+    "RelativePath": "api/Empleado/ObtenerEmpleadoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EstadoController",
+    "Method": "EditarEstado",
+    "RelativePath": "api/Estado/EditarEstado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.EstadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EstadoController",
+    "Method": "EliminarEstado",
+    "RelativePath": "api/Estado/EliminarEstado/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EstadoController",
+    "Method": "ListarEstado",
+    "RelativePath": "api/Estado/ListarEstado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EstadoController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/Estado/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EstadoController",
+    "Method": "NuevoEstado",
+    "RelativePath": "api/Estado/NuevoEstado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.EstadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.EstadoController",
+    "Method": "ObtenerEstadoPorId",
+    "RelativePath": "api/Estado/ObtenerEstadoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaController",
+    "Method": "EditarMarca",
+    "RelativePath": "api/Marca/EditarMarca/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.MarcaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaController",
+    "Method": "EliminarMarca",
+    "RelativePath": "api/Marca/EliminarMarca/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaController",
+    "Method": "ListarMarca",
+    "RelativePath": "api/Marca/ListarMarca",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/Marca/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaController",
+    "Method": "NuevoMarca",
+    "RelativePath": "api/Marca/NuevoMarca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.MarcaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaModeloController",
+    "Method": "EditarMarcaModelo",
+    "RelativePath": "api/MarcaModelo/EditarMarcaModelo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.MarcaModeloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaModeloController",
+    "Method": "EliminarMarcaModelo",
+    "RelativePath": "api/MarcaModelo/EliminarMarcaModelo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaModeloController",
+    "Method": "ListarMarcaModelo",
+    "RelativePath": "api/MarcaModelo/ListarMarcaModelo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaModeloController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/MarcaModelo/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MarcaModeloController",
+    "Method": "NuevoMarcaModelo",
+    "RelativePath": "api/MarcaModelo/NuevoMarcaModelo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.MarcaModeloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MetodoPagoController",
+    "Method": "EditarMetodoPago",
+    "RelativePath": "api/MetodoPago/EditarMetodoPago/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.MetodoPagoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MetodoPagoController",
+    "Method": "EliminarMetodoPago",
+    "RelativePath": "api/MetodoPago/EliminarMetodoPago/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MetodoPagoController",
+    "Method": "ListarMetodoPago",
+    "RelativePath": "api/MetodoPago/ListarMetodoPago",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MetodoPagoController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/MetodoPago/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MetodoPagoController",
+    "Method": "NuevoMetodoPago",
+    "RelativePath": "api/MetodoPago/NuevoMetodoPago",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.MetodoPagoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MetodoPagoController",
+    "Method": "ObtenerMetodoPagoPorId",
+    "RelativePath": "api/MetodoPago/ObtenerMetodoPagoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ModeloController",
+    "Method": "EditarModelo",
+    "RelativePath": "api/Modelo/EditarModelo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ModeloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ModeloController",
+    "Method": "EliminarModelo",
+    "RelativePath": "api/Modelo/EliminarModelo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ModeloController",
+    "Method": "ListarModelo",
+    "RelativePath": "api/Modelo/ListarModelo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ModeloController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/Modelo/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ModeloController",
+    "Method": "NuevoModelo",
+    "RelativePath": "api/Modelo/NuevoModelo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ModeloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MovimientoInventarioController",
+    "Method": "ListarMovimientos",
+    "RelativePath": "api/MovimientoInventario/ListarMovimientos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MovimientoInventarioController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/MovimientoInventario/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.MovimientoInventarioController",
+    "Method": "NuevoMovimiento",
+    "RelativePath": "api/MovimientoInventario/NuevoMovimiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.MovimientoInventarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.PermisoController",
+    "Method": "Crear",
+    "RelativePath": "api/Permiso/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.PermisoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.PermisoController",
+    "Method": "Editar",
+    "RelativePath": "api/Permiso/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.PermisoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.PermisoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Permiso/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.PermisoController",
+    "Method": "Filtrar",
+    "RelativePath": "api/Permiso/Filtrar/{busqueda}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busqueda",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.PermisoController",
+    "Method": "Listar",
+    "RelativePath": "api/Permiso/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.PermisoController",
+    "Method": "ObtenerPorId",
+    "RelativePath": "api/Permiso/ObtenerPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProductoController",
+    "Method": "EditarProducto",
+    "RelativePath": "api/Producto/EditarProducto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProductoController",
+    "Method": "EliminarProducto",
+    "RelativePath": "api/Producto/EliminarProducto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProductoController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/Producto/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProductoController",
+    "Method": "ListarProducto",
+    "RelativePath": "api/Producto/ListarProducto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProductoController",
+    "Method": "NuevoProducto",
+    "RelativePath": "api/Producto/NuevoProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProductoController",
+    "Method": "ObtenerProductoPorId",
+    "RelativePath": "api/Producto/ObtenerProductoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProveedoresController",
+    "Method": "Buscar",
+    "RelativePath": "api/Proveedores/buscar/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProveedoresController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Proveedores/editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ProveedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProveedoresController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Proveedores/eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProveedoresController",
+    "Method": "Crear",
+    "RelativePath": "api/Proveedores/insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.ProveedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProveedoresController",
+    "Method": "Listar",
+    "RelativePath": "api/Proveedores/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.ProveedoresController",
+    "Method": "ObtenerPorId",
+    "RelativePath": "api/Proveedores/obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolController",
+    "Method": "EditarRol",
+    "RelativePath": "api/Rol/EditarRol/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.RolDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolController",
+    "Method": "EliminarRol",
+    "RelativePath": "api/Rol/EliminarRol/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/Rol/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolController",
+    "Method": "ListarRoles",
+    "RelativePath": "api/Rol/ListarRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolController",
+    "Method": "NuevoRol",
+    "RelativePath": "api/Rol/NuevoRol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.RolDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolController",
+    "Method": "ObtenerRolPorId",
+    "RelativePath": "api/Rol/ObtenerRolPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolPermisoController",
+    "Method": "AsignarPermiso",
+    "RelativePath": "api/RolPermiso/AsignarPermiso/{idRol}/{idPermiso}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolPermisoController",
+    "Method": "ListarPorRol",
+    "RelativePath": "api/RolPermiso/ListarPorRol/{idRol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.RolPermisoController",
+    "Method": "RemoverPermiso",
+    "RelativePath": "api/RolPermiso/RemoverPermiso/{idRol}/{idPermiso}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPermiso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TelefonoController",
+    "Method": "EditarTelefono",
+    "RelativePath": "api/Telefono/EditarTelefono/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.TelefonoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TelefonoController",
+    "Method": "EliminarTelefono",
+    "RelativePath": "api/Telefono/EliminarTelefono/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TelefonoController",
+    "Method": "ListarPorNumero",
+    "RelativePath": "api/Telefono/ListarPorNumero/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TelefonoController",
+    "Method": "ListarTelefono",
+    "RelativePath": "api/Telefono/ListarTelefono",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TelefonoController",
+    "Method": "NuevoTelefono",
+    "RelativePath": "api/Telefono/NuevoTelefono",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.TelefonoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TelefonoController",
+    "Method": "ObtenerTelefonoPorId",
+    "RelativePath": "api/Telefono/ObtenerTelefonoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoCatalogoController",
+    "Method": "EditarTipoCatalogo",
+    "RelativePath": "api/TipoCatalogo/EditarTipoCatalogo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.TipoCatalogoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoCatalogoController",
+    "Method": "EliminarTipoCatalogo",
+    "RelativePath": "api/TipoCatalogo/EliminarTipoCatalogo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoCatalogoController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/TipoCatalogo/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoCatalogoController",
+    "Method": "ListarTipoCatalogo",
+    "RelativePath": "api/TipoCatalogo/ListarTipoCatalogo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoCatalogoController",
+    "Method": "NuevoTipoCatalogo",
+    "RelativePath": "api/TipoCatalogo/NuevoTipoCatalogo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.TipoCatalogoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoCatalogoController",
+    "Method": "ObtenerTipoCatalogoPorId",
+    "RelativePath": "api/TipoCatalogo/ObtenerTipoCatalogoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoMovimientoController",
+    "Method": "EditarTipoMovimiento",
+    "RelativePath": "api/TipoMovimiento/EditarTipoMovimiento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.TipoMovimientoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoMovimientoController",
+    "Method": "EliminarTipoMovimiento",
+    "RelativePath": "api/TipoMovimiento/EliminarTipoMovimiento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoMovimientoController",
+    "Method": "ListarPorNombre",
+    "RelativePath": "api/TipoMovimiento/ListarPorNombre/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoMovimientoController",
+    "Method": "ListarTipoMovimiento",
+    "RelativePath": "api/TipoMovimiento/ListarTipoMovimiento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoMovimientoController",
+    "Method": "NuevoTipoMovimiento",
+    "RelativePath": "api/TipoMovimiento/NuevoTipoMovimiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.TipoMovimientoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.TipoMovimientoController",
+    "Method": "ObtenerTipoMovimientoPorId",
+    "RelativePath": "api/TipoMovimiento/ObtenerTipoMovimientoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "EditarUsuario",
+    "RelativePath": "api/Usuario/EditarUsuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/Usuario/EliminarUsuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "EliminarUsuarioLegacy",
+    "RelativePath": "api/Usuario/EliminarUsuario/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/Usuario/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "ListarUsuarios",
+    "RelativePath": "api/Usuario/ListarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "NuevoUsuario",
+    "RelativePath": "api/Usuario/NuevoUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "ObtenerUsuarioPorId",
+    "RelativePath": "api/Usuario/ObtenerUsuarioPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.UsuarioController",
+    "Method": "Yo",
+    "RelativePath": "api/Usuario/Yo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "CompletarVenta",
+    "RelativePath": "api/Venta/CompletarVenta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "EditarVenta",
+    "RelativePath": "api/Venta/EditarVenta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "EliminarVenta",
+    "RelativePath": "api/Venta/EliminarVenta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "EliminarVentaLegacy",
+    "RelativePath": "api/Venta/EliminarVenta/{id}/{idModificador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idModificador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "ListarPorFiltro",
+    "RelativePath": "api/Venta/ListarPorFiltro/{Buscar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Buscar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "ListarVentas",
+    "RelativePath": "api/Venta/ListarVentas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "NuevaVenta",
+    "RelativePath": "api/Venta/NuevaVenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "ObtenerVentaPorId",
+    "RelativePath": "api/Venta/ObtenerVentaPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GRUPO_DDR_API.Controllers.VentaController",
+    "Method": "Registrar",
+    "RelativePath": "api/Venta/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GRUPO_DDR_APPLICATION.DTOs.VentaRegistroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

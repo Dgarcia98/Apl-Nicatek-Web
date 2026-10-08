@@ -1,0 +1,11 @@
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\bin\Release\net9.0\GRUPO_DDR_DOMAIN.deps.json
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\bin\Release\net9.0\GRUPO_DDR_DOMAIN.dll
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\bin\Release\net9.0\GRUPO_DDR_DOMAIN.pdb
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\GRUPO_DDR_DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\GRUPO_DDR_DOMAIN.AssemblyInfoInputs.cache
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\GRUPO_DDR_DOMAIN.AssemblyInfo.cs
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\GRUPO_DDR_DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\GRUPO_DDR_DOMAIN.dll
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\refint\GRUPO_DDR_DOMAIN.dll
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\GRUPO_DDR_DOMAIN.pdb
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_DOMAIN\obj\Release\net9.0\ref\GRUPO_DDR_DOMAIN.dll

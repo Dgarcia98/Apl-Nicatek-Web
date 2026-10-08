@@ -1,0 +1,17 @@
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\bin\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.deps.json
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\bin\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.runtimeconfig.json
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\bin\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.dll
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\bin\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.pdb
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\bin\Release\net9.0\GRUPO_DDR_DOMAIN.dll
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\bin\Release\net9.0\GRUPO_DDR_DOMAIN.pdb
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.AssemblyInfoInputs.cache
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.AssemblyInfo.cs
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DD.52BC2C25.Up2Date
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.dll
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\refint\GRUPO_DDR_INFRASTUCTURE.dll
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.pdb
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\GRUPO_DDR_INFRASTUCTURE.genruntimeconfig.cache
+C:\Users\Personal\Desktop\NicaTek\GRUPO_DDR\GRUPO_DDR_INFRASTUCTURE\obj\Release\net9.0\ref\GRUPO_DDR_INFRASTUCTURE.dll

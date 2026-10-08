@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|c:\\users\\personal\\desktop\\proyectos\\nicatek\\grupo_ddr\\grupo_ddr_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|solutionrelative:grupo_ddr_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|c:\\users\\personal\\desktop\\proyectos\\nicatek\\grupo_ddr\\grupo_ddr_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|solutionrelative:grupo_ddr_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|c:\\users\\personal\\desktop\\proyectos\\nicatek\\grupo_ddr\\grupo_ddr_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|solutionrelative:grupo_ddr_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|c:\\users\\personal\\desktop\\proyectos\\nicatek\\grupo_ddr\\grupo_ddr_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF9CAE0D-A593-43D3-B486-4C5737556738}|GRUPO_DDR_API\\GRUPO_DDR_API.csproj|solutionrelative:grupo_ddr_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GRUPO_DDR_API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\appsettings.Development.json",
+              "RelativeToolTip": "GRUPO_DDR_API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-29T04:50:34.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\Program.cs",
+              "RelativeDocumentMoniker": "GRUPO_DDR_API\\Program.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\Program.cs",
+              "RelativeToolTip": "GRUPO_DDR_API\\Program.cs",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAcwIMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T04:50:09.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\appsettings.json",
+              "RelativeDocumentMoniker": "GRUPO_DDR_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\appsettings.json",
+              "RelativeToolTip": "GRUPO_DDR_API\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-29T04:49:13.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GRUPO_DDR_API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\Proyectos\\NicaTek\\GRUPO_DDR\\GRUPO_DDR_API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GRUPO_DDR_API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-29T02:34:37.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
